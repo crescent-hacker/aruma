@@ -1,0 +1,42 @@
+/**
+ * Style for question back page
+ */
+.tips_row{
+    display:block;
+    margin-top:5%;
+    margin-left:5%;
+}
+
+.common_input{
+    width:88%;
+    margin-left:5%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    height:2.2em;
+    border:thin solid #c8c8c8;
+    padding-left:2%;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+
+.question_back_button{
+    display: block;
+    background:#23B5B3;
+    color:white!important;
+    width:90%;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top:6%;
+    margin-left:5%;
+    font-size:1.3em;
+    text-align: center;
+    border: 1px solid white;
+    padding:0.3em 0 0.3em 0;
+    font-weight: 900!important;
+    text-shadow: 0 0 0 ;
+}
+
+.question_back_button:active{
+    color:white;
+    background: #70a340;
+}

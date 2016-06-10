@@ -1,0 +1,29 @@
+/**
+ * Style for article page
+ */
+.article_zone{
+    width: 100%;
+    -webkit-overflow-scrolling : touch;
+}
+
+.article_zone h2{
+    text-align: center;
+}
+
+.article_zone p{
+    width:85%;
+    margin-left:5%;
+    word-break:break-all;
+    line-height: 1.5em;
+}
+
+.article_img{
+    width: 50%;
+    margin:1em;
+}
+.article_img:after{
+    content:"";
+    display:block;
+    padding-top:100%;
+}
+

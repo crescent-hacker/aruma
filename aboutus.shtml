@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>AboutUs</title>
+
+    <!--#include file="common_html/common_include.shtml"-->
+</head>
+<body>
+
+<div data-role="page" id="aboutus_page">
+
+    <div data-role="header" data-position="fixed" data-theme="a" role="banner" class="ui-header ui-bar-a ui-header-fixed slidedown orange">
+        <div class="back_button" onclick="$.mobile.back();"></div>
+        <h1 class="ui-title white_font" role="heading" aria-level="1">关于我们</h1>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content">
+        <p>
+            公司名称: Aruma<br>
+            邮箱: example@aruma.com<br>
+            联系电话: 046655555<br>
+        </p>
+    </div><!-- /content -->
+
+    <!--#include file="common_html/common_toolbar.shtml"-->
+
+</div><!-- /page -->
+
+</body>
+</html>

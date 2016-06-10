@@ -1,0 +1,46 @@
+<!--
+    For five main pages to include as the footer
+-->
+<div data-role="footer" data-position="fixed" data-theme="a" role="contentinfo"
+     class="ui-footer ui-bar-a ui-footer-fixed slideup">
+    <div data-role="navbar" class="ui-navbar" role="navigation">
+        <ul class="ui-grid-c">
+            <li class="ui-block-a">
+                <a annotation="收藏" href="favorite.shtml" data-prefetch="true" data-transition="none" class="ui-btn">
+                    <img class="img_toolbar" src="images/icons/icon_favorite.png"/>
+                    <br>
+                    <span class="font_toolbar">收藏</span>
+                </a>
+            </li>
+            <li class="ui-block-b">
+                <a annotation="信息" href="message.shtml" data-prefetch="true" data-transition="none" class="ui-btn">
+                    <img class="img_toolbar" src="images/icons/icon_msg.png"/>
+                    <br>
+                    <span class="font_toolbar">信息</span>
+                </a>
+            </li>
+            <li class="ui-block-c">
+                <a annotation="Aruma" href="index.shtml" data-prefetch="true" data-transition="none" class="ui-btn">
+                    <img class="img_toolbar" src="images/icons/logo_aruma_98x98.jpg"/>
+                    <br>
+                    <span class="font_toolbar">主页</span>
+                </a>
+            </li>
+            <li class="ui-block-d">
+                <a annotation="MyData" href="mydata.shtml" data-prefetch="true" data-transition="none" class="ui-btn">
+                    <img class="img_toolbar" src="images/icons/icon_profile.png"/>
+                    <br>
+                    <span class="font_toolbar">我的</span>
+                </a>
+            </li>
+            <li class="ui-block-e">
+                <a annotation="关于我们" href="aboutus.shtml" data-prefetch="true" data-transition="none" class="ui-btn">
+                    <img class="img_toolbar" src="images/icons/icon_location.png"/>
+                    <br>
+                    <span class="font_toolbar">关于</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- /navbar -->
+</div><!-- /footer -->

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>MyData</title>
+
+    <!--#include file="common_html/common_include.shtml"-->
+
+</head>
+<body>
+    <div data-role="page" id="mydata_page" class="light_orange">
+
+        <div data-role="header" data-position="fixed" data-theme="a" role="banner" class="ui-header ui-bar-a ui-header-fixed slidedown orange border_clear">
+            <h1 class="ui-title white_font display_none" role="heading" aria-level="1">MyData</h1>
+            <div><a href="register.shtml" class="right white_font register_button">注 册</a></div>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content fix padding_clear">
+            <div class="login_info_zone orange">
+                <a href="login.shtml" class="login_button white_font no_bold">登&nbsp;&nbsp;录</a>
+                <span class="login_info white_font no_bold display_none"></span>
+            </div>
+            <div class="function_list_zone">
+                <div class="zero_row"></div>
+                <a href="message.shtml" class="row margin_top_5">
+                    <span class="row_font">消息中心</span>
+                </a>
+                <a href="favorite.shtml" class="row no_border_top">
+                    <span class="row_font">收藏列表</span>
+                </a>
+                <a href="help.shtml" class="row margin_top_5">
+                    <span class="row_font">帮助</span>
+                </a>
+                <a href="aboutus.shtml" class="row margin_top_5">
+                    <span class="row_font">关于我们</span>
+                </a>
+                <a href="javascript:void(0)" onclick="logout()" class="logout_button row margin_top_5 hidden">
+                    <span class="row_font">登出</span>
+                </a>
+            </div>
+
+        </div><!-- /content -->
+
+        <!--#include file="common_html/common_toolbar.shtml"-->
+        <!--<script src="scripts/pages/mydata.js"></script>-->
+    </div><!-- /page -->
+</body>
+</html>

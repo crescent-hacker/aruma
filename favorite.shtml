@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no,maximum-scale=1.0">
+  <title>Favorite</title>
+  <!--#include file="common_html/common_include.shtml"-->
+</head>
+<body>
+<div data-role="page" id="favorite_page">
+
+  <div data-role="header" data-position="fixed" data-theme="a" role="banner"
+       class="ui-header ui-bar-a ui-header-fixed slidedown orange banner_height border_clear">
+    <div class="back_button" onclick="$.mobile.back();"></div>
+    <h1 class="ui-title white_font title_font" role="heading" aria-level="1">收藏</h1>
+  </div>
+  <!-- /header -->
+
+  <div role="main" class="ui-content padding_clear">
+    <div class="favorite_list_zone">
+      <ul id="favoriteList" class="padding_clear margin_clear">
+      </ul>
+    </div>
+  </div>
+  <!-- /content -->
+
+  <!--#include file="common_html/common_toolbar.shtml"-->
+  <!--<script src="scripts/pages/content.js"></script>-->
+</div>
+<!-- /page -->
+</body>
+</html>

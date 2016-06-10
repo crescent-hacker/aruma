@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>忘记密码</title>
+
+    <!--#include file="common_html/common_include.shtml"-->
+</head>
+<body>
+
+<div data-role="page" id="forget_pwd_page" class="light_orange">
+
+    <div data-role="header" data-position="fixed" data-theme="a" role="banner"
+         class="ui-header ui-bar-a ui-header-fixed slidedown orange">
+        <div class="back_button" onclick="$.mobile.back();"></div>
+        <h1 class="ui-title white_font title_font" role="heading" aria-level="1">忘记密码</h1>
+    </div>
+    <!-- /header -->
+
+    <div role="main" class="ui-content padding_clear">
+        <div class="forget_password_zone">
+            <a href="email_back.shtml" class="option_row" data-role="none">邮箱取回</a>
+            <a href="question_back.shtml" class="option_row" data-role="none">密保问题取回</a>
+        </div>
+    </div>
+    <!-- /content -->
+
+    <!--#include file="common_html/common_toolbar.shtml"-->
+
+</div>
+<!-- /page -->
+
+</body>
+</html>

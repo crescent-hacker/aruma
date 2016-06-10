@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>登陆</title>
+
+    <!--#include file="common_html/common_include.shtml"-->
+</head>
+<body>
+
+<div data-role="page" id="login_page" class="light_orange">
+
+    <div data-role="header" data-position="fixed" data-theme="a" role="banner"
+         class="ui-header ui-bar-a ui-header-fixed slidedown orange">
+        <div class="back_button" onclick="$.mobile.back();"></div>
+        <h1 class="ui-title white_font title_font" role="heading" aria-level="1">登陆</h1>
+    </div>
+    <!-- /header -->
+
+    <div role="main" class="ui-content padding_clear">
+        <div class="login_zone">
+            <!--<img class="login_logo" src="images/icons/logo_aruma_98x98.jpg"/>-->
+            <input type="text" class="login_uname_input margin_clear" id="userName" data-role="none"
+                   placeholder="账户名称"/>
+            <input type="password" class="login_pwd_input margin_clear" id="pwd" data-role="none" placeholder="密码"/>
+            <input type="text" class="login_captcha_input margin_clear" id="captcha" data-role="none" placeholder="验证码"/>
+
+            <div class="login_captcha">
+                <img src="https://www.aruma.org.au/captcha.php"/>
+            </div>
+            <a href="javascript:void(0)" onclick="login()" class="login_page_button white_font" data-role="none">登&nbsp;&nbsp;&nbsp;陆</a>
+
+            <div class="login_page_tips">
+                <a href="forget_pwd.shtml" class="left margin_left_9">忘记密码</a>
+                <a href="help.html" class="right margin_right_9">帮助</a>
+            </div>
+        </div>
+        <div data-role="popup" id="popupBasic" data-theme="b" data-overlay-theme="a" class="ui-content">
+            <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext"
+               class="ui-btn-right">Close</a>
+
+            <p id="popupContent">
+
+            <p>
+        </div>
+    </div>
+    <!-- /content -->
+
+    <!--#include file="common_html/common_toolbar.shtml"-->
+
+</div>
+<!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,181 @@
+/**
+ * Global setting
+ */
+font{
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
+/**
+ * Color of background or font
+ */
+.orange{
+    background: #F39700!important;
+}
+
+.light_orange{
+    background: #FEFAF2!important;
+}
+
+.blue{
+    background: #23B5B3!important;
+}
+
+.purple{
+    background: #DB2872!important;
+}
+
+.green{
+    background: #87BD43!important;
+}
+
+.yellow
+{
+    background-color: #f99700!important;
+}
+
+.red
+{
+    background-color: #eb5312!important;
+}
+
+.mgrey
+{
+    background-color: #5a5655!important;
+}
+
+.grey
+{
+    background-color: #c7c7c7!important;
+}
+
+.white_font{
+    color:white;
+    text-shadow: 0 0 0;
+    /*font-size:1.3em!important;*/
+}
+
+.title_font{
+    font-size:1.1em!important;
+}
+
+.no_bold{
+    font-weight: 100!important;
+}
+
+/**
+ * Aruma logo
+ */
+.logo_small{
+    width: 1.7em;
+    margin-left: 0.85em;
+    margin-top: 0.45em;
+    /*display:inline;*/
+    float:left;
+}
+
+/**
+ * toolbar style
+ */
+.font_toolbar{
+    font-size:1.0em;
+}
+
+.img_toolbar{
+    /*width: 1.3em;*/
+    height: 1.3em;
+}
+
+/**
+ * float align
+ */
+.left{
+    float:left!important;
+}
+
+.right{
+    float:right!important;
+}
+
+
+/**
+ * Framework reset and supplement
+ */
+.ui-content{
+    padding: 0.5em;
+}
+
+.fix{
+    /* Forbid ui-content scroll */
+    overflow: hidden;
+}
+
+.margin_clear{
+    margin:0 0 0 0!important;
+}
+
+.padding_clear{
+    padding:0 0 0 0!important;
+}
+
+.border_clear{
+    border: 0!important;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
+
+.display_none{
+    display: none!important;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.back_button{
+    position:relative;
+    float:left;
+    left:0;
+    width: 2.8em;
+    height: 2.8em;
+}
+
+.back_button::before{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: -11px;
+    margin-left:-6px;
+    content:"";
+    display:block;
+    width: 12px;
+    height: 22px;
+    /*background:green;*/
+    background: url("../../images/icons/icon_left_arrow_white.png") no-repeat center center;
+}
+
+.bottom_loading{
+    position:relative;
+    width:100%;
+    background: #f4f4f4;
+    height:1.5em;
+    padding:1em 0 1em 0;
+}
+
+.bottom_loading img{
+    position:absolute;
+    top:50%;
+    margin-top:-8px;
+    left:33%;
+}
+
+.bottom_loading span{
+    position:absolute;
+    top:35%;
+    left:40%;
+}

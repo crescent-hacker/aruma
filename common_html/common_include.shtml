@@ -1,0 +1,51 @@
+<!-- common tag -->
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta content="telephone=no" name="format-detection" />
+<base href="http://192.168.1.14/aruma/">
+<!--common style-->
+<link rel="stylesheet" href="styles/common/normalize.css" />
+<link rel="stylesheet" href="styles/vendor/jquery.mobile-1.4.5.css" />
+<link rel="stylesheet" href="styles/common/main.css" />
+
+<!--pages style-->
+<link rel="stylesheet" href="styles/pages/index.css" />
+<link rel="stylesheet" href="styles/pages/mydata.css" />
+<link rel="stylesheet" href="styles/pages/subindex.css" />
+<link rel="stylesheet" href="styles/pages/content.css" />
+<link rel="stylesheet" href="styles/pages/login.css" />
+<link rel="stylesheet" href="styles/pages/forget_pwd.css" />
+<link rel="stylesheet" href="styles/pages/email_back.css" />
+<link rel="stylesheet" href="styles/pages/question_back.css" />
+<link rel="stylesheet" href="styles/pages/article.css" />
+<link rel="stylesheet" href="styles/pages/favorite.css" />
+<link rel="stylesheet" href="styles/pages/message.css" />
+<!--<link rel="stylesheet" href="styles/pages/aboutus.css" />-->
+
+<!--common script-->
+<script src="scripts/vendor/jquery.min.js"></script>
+<script src="scripts/vendor/jquery.cookie.js"></script>
+<script src="scripts/vendor/jquery.mobile-1.4.5.js"></script>
+<!--<script src="scripts/vendor/jquery.mobile.lazyloader.min.js"></script>-->
+<script src="scripts/common/common_tool.js"></script>
+<script src="scripts/common/common_var.js"></script>
+<script src="scripts/common/toolbar.js"></script>
+<script src="scripts/common/no_scroll.js"></script>
+<script src="scripts/common/test_json.js"></script>
+
+<!--pages script-->
+<script src="scripts/pages/index.js"></script>
+<script src="scripts/pages/mydata.js"></script>
+<script src="scripts/pages/subindex.js"></script>
+<script src="scripts/pages/content.js"></script>
+<script src="scripts/pages/favorite.js"></script>
+<script src="scripts/pages/message.js"></script>
+<script src="scripts/pages/article.js"></script>
+<!--<script src="scripts/pages/login.js"></script>-->
+
+<!--main_js must be last to include-->
+<script src="scripts/common/main.js"></script>
+
+
+
+

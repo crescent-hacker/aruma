@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no,maximum-scale=1.0">
+  <title></title>
+  <!--#include file="common_html/common_include.shtml"-->
+</head>
+<body>
+    <div data-role="page" id="subindex_page" class="light_orange">
+
+        <div data-role="header" data-position="fixed" data-theme="a" role="banner" class="ui-header ui-bar-a ui-header-fixed slidedown orange banner_height border_clear">
+            <!--<a  data-rel="back" class="ui-btn-left ui-alt-icon ui-nodisc-icon ui-btn ui-icon-carat-l ui-btn-icon-notext ui-corner-all" data-role="button" role="button" data-theme="a">Back</a>-->
+            <div class="back_button" onclick="$.mobile.back();"></div>
+            <h1 class="ui-title white_font title_font" role="heading" aria-level="1">二级菜单</h1>
+        </div><!-- /header -->
+
+        <div role="main" class="ui-content fix padding_clear">
+            <div class="secondary_menu_zone light_orange">
+                <!--<a class="sub_menu_wrapper" href="javascript:void(0)" onclick="goSubMenu(1)">-->
+                    <!--<img class="sub_menu_block" src="images/pics/rocket.jpg" />-->
+                    <!--<div class="sub_menu_font text_center">澳洲景点介绍</div>-->
+                <!--</a>-->
+                <!--<a class="sub_menu_wrapper" href="javascript:void(0)" onclick="goSubMenu(2)">-->
+                    <!--<img class="sub_menu_block" src="images/pics/rocket.jpg" />-->
+                    <!--<div class="sub_menu_font text_center">澳洲景点介绍1</div>-->
+                <!--</a>-->
+                <!--<a class="sub_menu_wrapper" href="javascript:void(0)" onclick="goSubMenu(3)">-->
+                    <!--<img class="sub_menu_block" src="images/pics/rocket.jpg" />-->
+                    <!--<div class="sub_menu_font text_center">澳洲景点介绍2</div>-->
+                <!--</a>-->
+                <!--<a class="sub_menu_wrapper" href="javascript:void(0)" onclick="goSubMenu(4)">-->
+                    <!--<img class="sub_menu_block" src="images/pics/rocket.jpg" />-->
+                    <!--<div class="sub_menu_font text_center">澳洲景点介绍3</div>-->
+                <!--</a>-->
+                <!--<a class="sub_menu_wrapper" href="javascript:void(0)" onclick="goSubMenu(5)">-->
+                    <!--<img class="sub_menu_block" src="images/pics/rocket.jpg" />-->
+                    <!--<div class="sub_menu_font text_center">澳洲景点介绍4</div>-->
+                <!--</a>-->
+                <!--<a class="sub_menu_wrapper" href="javascript:void(0)" onclick="goSubMenu(6)">-->
+                    <!--<img class="sub_menu_block" src="images/pics/rocket.jpg" />-->
+                    <!--<div class="sub_menu_font text_center">澳洲景点介绍5</div>-->
+                <!--</a>-->
+            </div>
+        </div><!-- /content -->
+
+        <!--#include file="common_html/common_toolbar.shtml"-->
+        <!--<script src="scripts/pages/subindex.js"></script>-->
+    </div><!-- /page -->
+</body>
+</html>

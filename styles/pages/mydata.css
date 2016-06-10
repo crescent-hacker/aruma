@@ -1,0 +1,131 @@
+/**
+ * Style for mydata page
+ */
+.login_info_zone{
+    position:relative;
+    width:100%;
+}
+
+.login_info_zone:before{
+    content:"";
+    display:block;
+    padding-top: 25%;
+}
+
+.login_info_zone a{
+    color:white;
+}
+
+.login_info_zone a:visited{
+    color:white;
+}
+
+.register_button{
+    padding:1em;
+    display:block;
+    color: white!important;
+    text-shadow: 0 0 0 ;
+    font-weight: 100!important;
+}
+
+.login_button{
+    position:absolute;
+    width:33.3%;
+    top:3%;
+    left:50%;
+    margin-left: -15.7%;
+    font-size:1.5em;
+    text-align: center;
+    border: 1px solid white;
+    padding:0.3em 0 0.3em 0;
+    border-radius: 3px;
+}
+
+.login_button:active{
+    background: rgba(255, 162, 0, 0.68);
+}
+
+.login_info{
+    position:absolute;
+    width:33.3%;
+    top:3%;
+    left:50%;
+    margin-left: -15.7%;
+    font-size:1.5em;
+    text-align: center;
+    padding:0.3em 0 0.3em 0;
+    border-radius: 3px;
+}
+
+.function_list_zone{
+    position:relative;
+    background:#FEFAF2;
+    width: 100%;
+}
+
+.row{
+    position: relative;
+    display: block;
+    border-top: thin solid #c8c8c8;
+    border-bottom: thin solid #c8c8c8;
+    background:white;
+    height:2.7em;
+    width:100%;
+    /*margin-top:5%;*/
+}
+
+.row:after{
+    position:absolute;
+    right:1em;
+    top:50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    content:"";
+    background: url("../../images/icons/icon_right_arrow_grey.png") no-repeat center center;
+    display:block;
+    width: 9px;
+    height: 16px;
+}
+
+.row_font{
+    position:absolute;
+    top:50%;
+    margin-top:-0.55em;
+    left:7%;
+    font-size:1.1em;
+    color:dimgrey;
+    text-shadow: 0 0 0 ;
+    font-weight: 100!important;
+}
+
+.zero_row{
+    /*Special use as first margin*/
+    width: 100%;
+    height: 5%;
+}
+
+.margin_top_5{
+    margin-top: 5%;
+}
+
+.no_border_top{
+    border-top: 0;
+}
+
+.captcha{
+    width: 35%;
+    margin-right:5%;
+    margin-top:2%;
+}
+
+.captcha_input{
+    width:45%;
+    margin-left:5%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    height:2.2em;
+    border:thin solid #c8c8c8;
+    padding-left:2%;
+    border-radius: 5px;
+    -webkit-appearance: none;
+}

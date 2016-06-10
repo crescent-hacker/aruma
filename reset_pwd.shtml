@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>密保取回</title>
+
+    <!--#include file="common_html/common_include.shtml"-->
+</head>
+<body>
+
+<div data-role="page" id="reset_pwd_page" class="light_orange">
+
+    <div data-role="header" data-position="fixed" data-theme="a" role="banner"
+         class="ui-header ui-bar-a ui-header-fixed slidedown orange">
+        <div class="back_button" onclick="$.mobile.back();"></div>
+        <h1 class="ui-title white_font title_font" role="heading" aria-level="1">密保取回</h1>
+    </div>
+    <!-- /header -->
+
+    <div role="main" class="ui-content padding_clear">
+        <div class="reset_pwd_zone">
+            <span class="tips_row">新密码</span>
+            <input data-role="none" type="password" class="common_input"/>
+            <span class="tips_row">请重复输入密码</span>
+            <input data-role="none" type="password" class="common_input"/>
+            <a data-role="none" class="question_back_button">保&nbsp;存</a>
+        </div>
+    </div>
+    <!-- /content -->
+
+    <!--#include file="common_html/common_toolbar.shtml"-->
+</div>
+<!-- /page -->
+
+</body>
+</html>

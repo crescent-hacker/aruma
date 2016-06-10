@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>注册</title>
+
+    <!--#include file="common_html/common_include.shtml"-->
+</head>
+<body>
+
+<div data-role="page" id="reset_pwd_page" class="light_orange">
+
+    <div data-role="header" data-position="fixed" data-theme="a" role="banner"
+         class="ui-header ui-bar-a ui-header-fixed slidedown orange">
+        <div class="back_button" onclick="$.mobile.back();"></div>
+        <h1 class="ui-title white_font title_font" role="heading" aria-level="1">注册</h1>
+    </div>
+    <!-- /header -->
+
+    <div role="main" class="ui-content padding_clear">
+        <div class="register_zone">
+            <span class="tips_row">账号名(有效邮箱)</span>
+            <input id="email" data-role="none" type="text" class="common_input"/>
+            <span class="tips_row">新密码</span>
+            <input id="password" data-role="none" type="password" class="common_input"/>
+            <span class="tips_row">请重复输入密码</span>
+            <input id="retypepassword" data-role="none" type="password" class="common_input"/>
+            <span class="tips_row">请输入验证码</span>
+            <input id="captcha" data-role="none" type="text" class="captcha_input left"/>
+            <img class="captcha right" src="https://www.aruma.org.au/captcha.php" />
+            <a href="javascript:void(0)" onclick="register()" data-role="none" class="question_back_button left">提&nbsp;交</a>
+        </div>
+        <div data-role="popup" id="popupBasic" data-theme="b" data-overlay-theme="a" class="ui-content">
+            <a id="closeButton" href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+            <p id="popupContent"><p>
+        </div>
+    </div>
+    <!-- /content -->
+
+    <!--#include file="common_html/common_toolbar.shtml"-->
+</div>
+<!-- /page -->
+
+</body>
+</html>
